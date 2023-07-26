@@ -9,6 +9,8 @@ B.place(x=0.3,y=5)
 C=Entry(A,bd=5)
 C.place(x="110",y="2.5",)
 def Func():
+    D=None
+    # print("C",C)
     D= Label(text=C.get(),fg="red",font="Bahnschrift")
     D.place(x=108,y=30)
 
